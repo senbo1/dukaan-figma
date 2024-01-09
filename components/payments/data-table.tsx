@@ -191,7 +191,7 @@ export function DataTable<TData, TValue>({
             </PaginationItem>
             {Array.from({ length: 8 }, (_, i) => (
               <PaginationItem>
-                <PaginationLink href="#">{i + 11}</PaginationLink>
+                <PaginationLink href="#" key={11 + i}>{i + 11}</PaginationLink>
               </PaginationItem>
             ))}
             <PaginationItem>
